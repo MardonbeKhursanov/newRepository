@@ -1,5 +1,6 @@
 
 let search_btn = document.getElementById('search_btn')
+let input = document.getElementById('username')
 
 search_btn.addEventListener('click', searchFunc)
 function searchFunc(){
@@ -12,3 +13,8 @@ function searchFunc(){
         search_btn.innerText = 'Search'
     }
 }
+input.addEventListener('blur', function(){
+    if(input.value == ''){
+        document.querySelector('.form').classList.toggle('kirit')
+    }
+})

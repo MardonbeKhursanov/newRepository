@@ -7,6 +7,9 @@
     text-decoration: none;
     font-family: 'Salsa', cursive;
 }
+body{
+    background-color: whitesmoke;
+}
 #logo_img{
     height: 8vh;
     overflow: hidden;
@@ -62,25 +65,25 @@ nav ul li a:hover{
     content: '';
     height: 2px;
     width:  0%;
-    background-color: transparent;
+    background-color: rgb(1, 43, 255);
     transition: all .2s linear;
 }
 .nav_bar ul li a::before{
     content: '';
     height: 2px;
     width:  0%;
-    background-color: transparent;
+    background-color: rgb(1, 43, 255);
     transition: all .2s linear;
 }
 .nav_bar ul li a:hover::after{
     content: "";
     width:  100%;
-    background-color: black;
+    background-color: rgb(1, 43, 255);
 }
 .nav_bar ul li a:hover::before{
     content: "";
     width:  100%;
-    background-color: black;
+    background-color: rgb(1, 43, 255);
 }
 #search_btn {
     background: none;
@@ -156,6 +159,9 @@ nav ul li a:hover{
 }
 
 /* ---------------------------ourTeam--------------------------- */
+#team{
+    background-color: white;
+}
 .boxes{
     display: flex;
     justify-content: space-between;
@@ -182,6 +188,64 @@ nav ul li a:hover{
     margin: 30px 0px;
 }
 
+/* ---------------------write me--------------------- */
+.writer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.writer img{
+    width: 30vw;
+    height: 100%;
+}
+.form{
+    width: 50vw;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh;
+    gap: 30px;
+}
+.form input{
+    width: 100%;
+    height: 2em;
+    font-size: 1em;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    outline: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+    background-color: transparent;
+}
+.form textarea{
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color: transparent;
+}
+.form input:focus{
+    transition: all .1s linear;
+    box-shadow: 0px 0px 10px rgb(0, 140, 255);
+}
+.form textarea:focus{
+    transition: all .1s linear;
+    box-shadow: 0px 0px 10px rgb(0, 140, 255);
+}
+.mySpan{
+    position: absolute;
+    margin-top: 4vh;
+    margin-left: -32vw;
+    color: red;
+    display: none;
+}
+.form.kirit .mySpan{
+    display: block;
+}
 
 
 @keyframes img_anime{

@@ -14,6 +14,16 @@
     .row-title{
         width: 100%;
     }
+    .writer img{
+        position: absolute;
+        width: 80%;
+    }
+    .writer .form{
+        height: 50%;
+        position: absolute;
+        width: 75%;
+        background-color: rgba(255, 255, 255, 0.406);
+    }
 }
 @media screen and (max-width:600px){
     .header-title-row img{
@@ -32,5 +42,16 @@
     /* ---------------------taem------------------- */
     .boxes .box{
         width: 70%;
+    }
+    .writer .form{
+        padding: 5vh;
+        height: 50%;
+        position: absolute;
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.406);
+    }
+    .writer img{
+        position: absolute;
+        width: 100%;
     }
 }
