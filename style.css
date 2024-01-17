@@ -28,6 +28,7 @@ header{
 .container{
     width: 90%;
     margin: 0 auto;
+    padding: 50px 0px;
 }
 nav {
     width: 100%;
@@ -102,7 +103,7 @@ nav ul li a:hover{
     padding: 10vh 0vh;
 }
 .header-title{
-    height: 90vh;
+    /* height: 90vh; */
     width: 100%;
 }
 .header-title-row img{
@@ -154,6 +155,32 @@ nav ul li a:hover{
     display: none;
 }
 
+/* ---------------------------ourTeam--------------------------- */
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.boxes .box{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid;
+}
+.boxes .box img{
+    width: 50%;
+}
+.box:last-child{
+    padding: 35px 20px;
+}
+.all_title{
+    text-align: center;
+    margin: 30px 0px;
+}
 
 
 
