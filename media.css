@@ -21,4 +21,7 @@
     .nav_bar ul{
         display: none;
     }
+    #search_bar #search_inp{
+        width: 50vw;
+    }
 }

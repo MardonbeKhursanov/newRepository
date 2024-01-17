@@ -129,6 +129,30 @@ nav ul li a:hover{
 .row-title{
     width: 40%;
 }
+#search_bar{
+    display: flex;
+    align-items: center;
+    display: none;
+}
+#search_inp{
+    width: 0vw;
+    height: 2em;
+    font-size: 1em;
+    border: 0px solid;
+    outline: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin-left: 10px;
+}
+.nav_bar.search #search_bar{
+    display: block;
+}
+.nav_bar.search #search_inp{
+    width: 60vw;
+}
+.nav_bar.search #nav_list{
+    display: none;
+}
 
 
 
@@ -149,6 +173,6 @@ nav ul li a:hover{
         transform: translateY(0em);
     }
     to{
-        transform: translateY(-1.5em);
+        transform: translateY(-1.3em);
     }
 }
