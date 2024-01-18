@@ -42,22 +42,6 @@ body{
     color: white;
     display: none;
 }
-.top{
-    height: 5vh;
-    width: 5vh;
-    display: flex;
-    position: fixed;
-    bottom: 15vh;
-    right: 2vh;
-    font-size: 3vh;
-    color: dodgerblue;
-    border: 1px solid rgba(0, 0, 8, 0.186);
-    border-radius: 200px;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    z-index: 99;
-}
 
 header{
     /* height: 100vh; */
