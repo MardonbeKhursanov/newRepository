@@ -17,12 +17,16 @@
     .writer img{
         position: absolute;
         width: 80%;
+        height: 60vh;
     }
     .writer .form{
         height: 50%;
         position: absolute;
         width: 75%;
         background-color: rgba(255, 255, 255, 0.406);
+    }
+    .footer_input{
+        width: 90%;
     }
 }
 @media screen and (max-width:600px){
@@ -62,8 +66,11 @@
         display: block;
     }
 }
-@media screen and (max-height: 500px){
+@media screen and (max-height: 800px){
     .header-title-row img{
         width: 30vw;
+    }
+    input{
+        height: 20vh !important; 
     }
 }
