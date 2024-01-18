@@ -56,3 +56,8 @@
         height: 70vh;
     }
 }
+@media screen and (max-height: 500px){
+    .header-title-row img{
+        width: 30vw;
+    }
+}
