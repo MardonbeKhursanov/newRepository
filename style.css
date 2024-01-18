@@ -20,6 +20,29 @@ body{
     overflow: hidden;
     scale: 1.5;
 }
+.menu{
+    position: fixed;
+    height: 5vh;
+    background-color: #02051447;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    bottom: 10px;
+    z-index: 100;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    align-items: center;
+    padding: 5vh 0vh;
+    border: 2px solid grey;
+    display: none;
+}
+.menu i{
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+
 
 header{
     /* height: 100vh; */

@@ -55,6 +55,12 @@
         width: 100%;
         height: 70vh;
     }
+    .menu{
+        display: flex;
+    }
+    .menu i{
+        display: block;
+    }
 }
 @media screen and (max-height: 500px){
     .header-title-row img{
