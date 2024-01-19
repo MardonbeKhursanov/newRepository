@@ -280,7 +280,7 @@ footer{
     width: 100%;
     color: white;
     text-align: center;
-    padding: 10vh 0vh;
+    padding: 5vh 0vh 0vh 0vh;
 }
 .footer_div {
     display: flex;
@@ -291,14 +291,13 @@ footer{
     margin-top: 20px;
     width: 50%;
     background-color: azure;
-    height: 5vh;
+    height: 50px;
     display: flex;
     align-items: center;
     border-radius: 50px;
 }
 .footer_input input{
     width: 90%;
-    height: 100%;
     background-color: transparent;
     border: none;
     outline: none;
@@ -315,9 +314,32 @@ footer{
     font-size: 20px;
     border: none;
     font-family: 'Times New Roman', Times, serif;
+    transition: all .2s linear;
 }
-
-
+.footer_input button:hover{
+    box-shadow: 0px 0px 10px red;
+}
+.operators{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.operators img{
+    width: 15vh;
+}
+.operators ul{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+}
+.operators ul li a{
+    color: white;
+    transition: all .2s linear;
+}
+.operators ul li a:hover{
+    filter: drop-shadow(0px 0px 5px white);
+}
 @keyframes img_anime{
     0%{
         border-radius: 30% 70% 70% 30% / 30% 46% 54% 70% ;
