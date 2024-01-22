@@ -18,3 +18,9 @@ input.addEventListener('blur', function(){
         document.querySelector('.form').classList.toggle('kirit')
     }
 })
+window.addEventListener("offline", function(){
+    this.document.querySelector('body').classList.toggle('load')
+})
+window.addEventListener("online", function(){
+    this.document.querySelector('body').classList.remove('load')
+})
