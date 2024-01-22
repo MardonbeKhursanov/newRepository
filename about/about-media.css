@@ -1,0 +1,30 @@
+@media screen and (max-width: 600px) {
+    .nav_bar ul{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .menu i{
+        display: block;
+    }
+    .container{
+        width: 90%;
+    }
+    .header_title{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        background-position: center left;
+    }
+    #search_bar #search_inp{
+        width: 50vw;
+    }
+}
+
+
+@media screen and (max-height: 500px) {
+    header{
+        height: 60vw;
+    }
+}
