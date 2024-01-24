@@ -39,7 +39,9 @@
     #my_file .box img{
         width: 60vw;
     }
-    
+    .more_about #back{
+        top: 20%;
+    }
 }
 
 
