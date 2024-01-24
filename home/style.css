@@ -353,6 +353,7 @@ footer{
     width: 400px;
     overflow: hidden;
     height: 400px;
+    cursor: default;
     border-radius: 20px;
 }
 
@@ -360,11 +361,27 @@ footer{
     width: 400px;
     transition: all .3s linear;
     height: 400px;
+    display: flex;
+    cursor: default;
 }
 .img-box:hover img{
     transform: scale(1.1);
 }
-
+.img-box span{
+    position: absolute;
+    transform: translate(18vw, -20vh);
+    text-transform: uppercase;
+    opacity: 0;
+    transition: all .3s linear;
+}
+.img-box:hover span{
+    transform: translate(16vw, -20vh);
+    opacity: 1;
+    color: white;
+}
+.img-box span:hover{
+    color: black;
+}
 
 
 

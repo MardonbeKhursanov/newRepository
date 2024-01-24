@@ -1,3 +1,9 @@
+@media screen and (max-width: 900px) {
+    .more_about{
+        width: 90%;
+    }    
+}
+
 @media screen and (max-width: 600px) {
     .nav_bar ul{
         display: none;
@@ -20,6 +26,20 @@
     #search_bar #search_inp{
         width: 50vw;
     }
+    .more_about{
+        width: 100%;
+    }    
+    #my_file .box{
+        flex-direction: column;
+    }
+    #my_file .box:nth-child(2)
+{
+    flex-direction: column;
+}
+    #my_file .box img{
+        width: 60vw;
+    }
+    
 }
 
 
