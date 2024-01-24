@@ -184,8 +184,8 @@ header.more .more_about{
 }
 .more_about #back{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 10px;
     padding: 5px 10px;
     background-color: red;
     color: white;
